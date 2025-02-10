@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">  -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xindi</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+
+</head>
+<body>
+    <div class = "main">
+        <div class = "header">
+            <h1>Xindi Zheng</h1>
+            <button id="toggleDarkMode" class="mode"><i class="fa-solid fa-circle-half-stroke fa-3x"></i></button>
+        </div>
+        
+        <div class = "navigator">
+
+            <button class = "navButton" onclick="document.location='project.html'">Project</button>
+            <button class = "navButton" onclick="document.location='research.html'">Research</button>
+            <button class = "navButton" onclick="document.location='hobby.html'">Hobby</button>
+            <button class = "navButton" onclick="document.location='contact.html'">Contact</button>
+            <button class = "navButton" onclick="document.location='index.html'">BIO</button>
+            
+        </div>
+
+        <div class = "content">
+            <h1 class = "title">Research</h1>
+
+            <div class = "left" style="border: #bf624f solid 2px;">
+
+                <h3><a href="./pic/BIMI.png "target="_blank">BIMI-Based Anti-Phishing Identity Indicator </a></h3>
+
+                <h3>Abstract: </h3>
+                <p>In today’s increasingly digital world, phishing attacks have become one of the most prominent cyber threats, posing significant risks to individual users and organizations alike. As malicious actors use increasingly sophisticated tactics to deceive users, the need for effective anti-phishing tools is more critical than ever. Brand Indicators for Message Identification (BIMI) is an email security standard designed to address part of this challenge by allowing brands to display their logos in verified emails. This not only boosts brand recognition but also helps recipients visually confirm the legitimacy of the sender. Inspired by the success of BIMI in the email space, we developed a security tool that brings similar principles into the realm of web browsing. Our tool integrates BIMI-based verification, displaying a brand’s verified logo when users visit a website. By enabling users to visually identify legitimate websites, this tool aims to simplify the process of distinguishing between phishing and authentic websites, reducing the risk of falling victim to online scams.</p>
+
+                <a href="./pic/BIMI.png"  target="_blank">
+                    <img src="./pic/BIMI.png" alt="bimi" width="480" height="300">
+                </a>
+               
+               
+               
+            </div>
+            
+            <div class = "right" style="border: #bf624f solid 2px;">
+                
+                <h3><a href="./pic/bimiAndWeb.png "target="_blank">Implementing And Measuring BIMI and Web Traffic Validators As Phishing Detection Tools In Web Browsers </a></h3>
+    
+                <h3>Abstract: </h3>
+                <p>Phishing is a prevalent cyberattack where the attacker disguises themselves as a legitimate entity to steal sensitive information. Although there are multiple approaches, such as blacklists and
+                    whitelists, to validate the legitimacy of websites, they are not very effective, partially due to the
+                    lack of central authorities that accurately verify website identities. This research explores the implementation of the Brand Indicators for Message Identification (BIMI) dataset, which validates
+                    websites through their DNS at the request of the website owners. we developed a tool that presents
+                    a web browser to the user, where a validator icon indicates the validation status with BIMI. Additionally, we incorporated a web traffic validator into the browser modification and tested this
+                    implementation with real users. Using paired t-tests, we measured the efficiency and accuracy of
+                    these tools in aiding users to identify malicious websites compared to using no tools at all.</p>
+    
+                <a href="./pic/bimiAndWeb.png"  target="_blank">
+                    <img src="./pic/bimiAndWeb.png" alt="bimiAndWeb" width="480" height="300">
+                </a>
+                
+            </div>
+
+        </div>
+        
+        <div class = "footer">
+            <h4>&copy; 2025 Xindi Zheng. -All Rights Reserved.</h4>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="script.js"></script>
