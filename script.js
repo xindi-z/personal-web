@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const toggleButton = document.getElementById('toggleDarkMode');
     
-    // 检查用户是否已经选择了夜间模式
+    // check if dark mode is enabled
     if (localStorage.getItem('darkMode') === 'enabled') {
         document.body.classList.add('dark-mode');
     }
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     toggleButton.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
         
-        // 记录用户选择
+        // tracking user's choice
         if (document.body.classList.contains('dark-mode')) {
             localStorage.setItem('darkMode', 'enabled');
         } else {
